@@ -1,0 +1,31 @@
+{
+  "name": "gulp-ensure-ng-annotate",
+  "version": "0.0.0",
+  "description": "My  gulp plugin",
+  "license": "MIT",
+  "repository": "christian-fei/gulp-ensure-ng-annotate",
+  "author": {
+    "name": "christian-fei",
+    "email": "christian@fei.ninja",
+    "url": "https://github.com/christian-fei/gulp-ensure-ng-annotate"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
